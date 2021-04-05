@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  font-size: 1.5em;
+  background-color: #fef4f4;
+  color: #c099a0;
+}
+#wrapper {
+  width: 400px;
+  margin: 0 auto;
+}
+#wrapper h1{
+  font-family: 'Train One', cursive;
+}
+/* ボタン */
+#sub {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #d4acad;
+  border-radius: 6px;
+  display: inline-block;
+  border-bottom: 4px solid #c099a0;
+  color: #fff;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 41px;
+  text-decoration: none;
+}
+#sub:hover {
+  background-color: #e8d3d1;
+  border-bottom:4px solid #d4acad;
+}
+#sub:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  border-bottom: none;
+}
+/* ラジオボタン */
+input[type=radio]{
+  display: none;
+}
+label{
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: 2px solid #c099a0;
+  background-color: #fff;
+}
+input[type="radio"]:checked + label{
+  background-color: #e9dfe5;
+  color: #fff;
+}
+/* 結果表示 */
+#mainCon h2{
+  font-size: 23px;
+  background-color: #fff;
+  padding: 10px;
+}
+/* 戻るボタン */
+input[type="button"]{
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #d4acad;
+  border-radius: 6px;
+  display: inline-block;
+  color: #fff;
+  font-family: Arial;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 41px;
+  text-decoration: none;
+  padding: 8px 30px;
+}
+input[type="button"]:hover{
+  background-color: #e8d3d1;
+}
